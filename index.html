@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- custom css link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>css</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>	
+
+
+	<script>
+		let menutoggle = document.querySelector('.toggle');
+		menutoggle.onclick = function(){
+			menutoggle.classList.toggle('active');
+		} 
+	</script>
+</body>
+</html>
